@@ -22,6 +22,7 @@
     padding: 10px 0;
   }
 }
+
 /*===================== Head section ======================*/
 
 .header-container {
@@ -29,16 +30,30 @@
   background-repeat: no-repeat;
 }
 
-@media(max-width:700px){
-  .header-container{
-   background-clip: border-box;
+@media(max-width:700px) {
+  .header-container {
+    background-clip: border-box;
   }
 }
+
+@media(max-width:375px) {
+  .header-container {
+    background: url(images/scenery.jpg);
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 215px;
+  }
+}
+
 /*===================== about section ======================*/
 
 .about-img {
   margin-left: -100px;
   right: -60px;
+}
+
+.w-100 {
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
 
 .display-1 {
@@ -84,6 +99,15 @@
   }
 }
 
+@media (max-width: 375px) {
+  .display-1 {
+    font-size: 75px;
+  }
+
+  .mb-4 {
+    width: 20rem !important;
+  }
+}
 
 /* =================== project Section ==================*/
 
@@ -108,12 +132,13 @@
   box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
 
 }
+
 @media (max-width: 700px) {
-  .project-container div{
+  .project-container div {
     flex-direction: column;
   }
 }
- 
+
 /* ========================== Contact Us ========================*/
 
 .contact-form .help-block ul {
