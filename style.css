@@ -47,7 +47,12 @@
     background-repeat: no-repeat;
   }
 }
-
+@media(max-width:425px) {
+  .header-container {
+    background: url(images/bgimg300px.jpg);
+    background-repeat: no-repeat;
+  }
+}
 /*===================== about section ======================*/
 
 .about-img {
@@ -110,6 +115,11 @@
 
   .mb-4 {
     width: 20rem !important;
+  }
+}
+@media (max-width: 425px) {
+  .display-1 {
+    font-size: 80px;
   }
 }
 /* =================== skill Section ==================*/
