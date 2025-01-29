@@ -1,10 +1,5 @@
 /* ================ Navigation Menu ====================*/
 
-
-.navbar-light {
-  display: ;
-}
-
 .navbar-light .navbar-nav .nav-link {
   padding: 25px 10px;
   color: #343a40;
@@ -41,13 +36,13 @@
 
 }
 
-@media(max-width:375px) {
+@media(max-width:425px) {
   .header-container {
-    background: url(images/bgimg300px.jpg);
+    background: rgba(81, 206, 43, 0.733);
     background-repeat: no-repeat;
+    border-bottom-right-radius: 215px;
   }
 }
-
 /*===================== about section ======================*/
 
 .about-img {
@@ -112,7 +107,15 @@
     width: 20rem !important;
   }
 }
+@media (max-width: 425px) {
+  .display-1 {
+    font-size: 80px;
+  }
+}
 /* =================== skill Section ==================*/
+.card{
+  margin: 10px;
+}
 .card:hover{
   box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
 }
